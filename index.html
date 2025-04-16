@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <form action="CurrencyConverterServlet" method="post">
+        <label>Amount:</label>
+        <input type="text" name="amount" required><br><br>
+
+        <label>Convert:</label><br>
+        <input type="radio" name="conversionType" value="USDToINR" checked> USD to INR<br>
+        <input type="radio" name="conversionType" value="INRToUSD"> INR to USD<br><br>
+
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
